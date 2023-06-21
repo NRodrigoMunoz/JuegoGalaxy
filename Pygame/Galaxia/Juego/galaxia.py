@@ -256,19 +256,19 @@ while repetir:
         if len(enemigos_grupo1) <= 0 and len(enemigos_grupo2) <= 0 and len(enemigos_grupo3) <= 0:
             if jugador.vidas == 3 and BANDERA_VIDA == True:
                 puntuacion += 1000
-                puntuacion += (MINUTOS*1000)
+                puntuacion += (MINUTOS*1.000)
                 BANDERA_VIDA = False
                 jugador.vidas = 3
                 jugador.puntos_de_vida = 100
             if jugador.vidas == 2 and BANDERA_VIDA == True:
                 puntuacion += 700
-                puntuacion += (MINUTOS*1000)
+                puntuacion += (MINUTOS*1.000)
                 BANDERA_VIDA = False
                 jugador.vidas = 3
                 jugador.puntos_de_vida = 100
             if jugador.vidas == 1 and BANDERA_VIDA == True:
                 puntuacion += 300
-                puntuacion += (MINUTOS*1000)
+                puntuacion += (MINUTOS*1.000)
                 BANDERA_VIDA = False
                 jugador.vidas = 3
                 jugador.puntos_de_vida = 100
